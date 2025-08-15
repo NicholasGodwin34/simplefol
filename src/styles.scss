@@ -16,3 +16,10 @@
 @import "./sass/sections/contact";
 @import "./sass/sections/hero";
 @import "./sass/sections/projects";
+body {
+  background-image: url('assets/ndu4.jpg');
+  background-size: cover;      // Ensures image covers the full viewport
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed; // Makes it stay fixed while scrolling
+}

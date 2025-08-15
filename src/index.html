@@ -40,6 +40,8 @@
 
   <!-- Todo: read the following HTML Todos to create your stunning portfolio website -->
   <body>
+    <div id="rain-container">
+      <canvas id="rain"></canvas>
     <div id="top"></div>
 
     <!-- **** Hero Section **** -->
@@ -48,7 +50,7 @@
         <h1 class="hero-title load-hidden">
           Hi, my name is <span class="text-color-main">Triza</span>
           <br />
-          I'm a dash.
+          I'm a Graphic Designer.
         </h1>
         <p class="hero-cta load-hidden">
           <a rel="noreferrer" class="cta-btn cta-btn--hero" href="#about"
@@ -62,7 +64,9 @@
     <!-- **** About Section **** -->
     <section id="about">
       <div class="container">
+        <div class="about-header load-hidden">
         <h2 class="section-title load-hidden">About me</h2>
+        </div>
         <div class="row about-wrapper">
           <div class="col-md-6 col-sm-12">
             <div class="about-wrapper__image load-hidden">
@@ -77,10 +81,14 @@
             </div>
           </div>
           <div class="col-md-6 col-sm-12">
+            <div class="about-container load hidden">
             <div class="about-wrapper__info load-hidden">
               <p class="about-wrapper__info-text">
-                This is where you can describe about yourself. The more you
-                describe about yourself, the more chances you have!
+                Hi, I'm Triza, a passionate graphic designer with an eye for detail and a love for 
+                turning ideas into captivating visuals. What started as a creative hobby quickly grew into a 
+                skillset I now use to craft designs that make brands stand out. From elegant business branding to vibrant 
+                social media content, my work blends creativity, strategy, and a touch of personality. I believe great design is more than just looking good 
+                it's about telling a story, sparking emotion, and leaving a lasting impression.
                 
               </p>
               <p class="about-wrapper__info-text">
@@ -96,6 +104,7 @@
                   View Resume
                 </a>
               </span>
+              </div>
             </div>
           </div>
         </div>
@@ -116,44 +125,37 @@
                 <h3 class="project-wrapper__text-title">Project Title 0</h3>
                 <div>
                   <p class="mb-4">
-                    Describe the project being very specific, you can use the Twitter standard: no more than 280 characters: 
-                    complement the information: the skills learned or reinforced in its realization and how you faced it, 
-                    prove to be proactive in the search for solutions.
+                   A visually captivating coffee-themed poster designed to draw customers
+                    into the shop. The layout combines rich coffee tones with bold typography,
+                     ensuring the brand's warmth and aroma are felt at first glance.
                   </p>
                 </div>
                 <a
                   rel="noreferrer"
                   target="_blank"
                   class="cta-btn cta-btn--hero"
-                  href="#!"
+                  href="assets/files/stick1.pdf"
                 >
                   See Live
                 </a>
-                <a
-                  rel="noreferrer"
-                  target="_blank"
-                  class="cta-btn text-color-main"
-                  href="#!"
-                >
-                  Source Code
-                </a>
+                
               </div>
             </div>
             <div class="col-lg-8 col-sm-12">
               <div class="project-wrapper__image load-hidden">
                 <a rel="noreferrer" href="#!" target="_blank">
-                  <div
-                    data-tilt
-                    data-tilt-max="4"
-                    data-tilt-glare="true"
-                    data-tilt-max-glare="0.5"
-                    class="thumbnail rounded js-tilt"
-                  >
-                    <img
-                      alt="Project Image"
-                      class="img-fluid"
-                      src="assets/project.jpg"
-                    />
+                  <div>
+                <div class="card-stack">
+                    <div class="card">
+                      <img src="assets/stick.png" alt="project">
+                    </div>
+                    <div class="card">
+                      <img src="assets/stick1.png" alt="project">
+                    </div>
+                    <div class="card">
+                      <img src="assets/stick2.png" alt="spice">
+
+                </div>
                   </div>
                 </a>
               </div>
@@ -168,44 +170,39 @@
                 <h3 class="project-wrapper__text-title">Project Title 1</h3>
                 <div>
                   <p class="mb-4">
-                    Demonstrate in this description the skills of a programmer: such as having commitment, 
-                    having perseverance and accepting alternative solutions. Remember that being a portfolio you are not selling the project, 
-                    you are selling yourself, it reflects the resources used: Frameworks, libraries, platforms, etc.
+                    A sleek and professional business card created for a private chef, 
+                    designed to leave a lasting impression. The card balances elegance and clarity, 
+                    making it easy for potential clients to remember and reach out.
                   </p>
                 </div>
                 <a
                   rel="noreferrer"
                   target="_blank"
                   class="cta-btn cta-btn--hero"
-                  href="#!"
+                  href="assets/files/lemy.pdf"
                 >
                   See Live
                 </a>
-                <a
-                  rel="noreferrer"
-                  target="_blank"
-                  class="cta-btn text-color-main"
-                  href="#!"
-                >
-                  Source Code
-                </a>
+                
               </div>
             </div>
             <div class="col-lg-8 col-sm-12">
               <div class="project-wrapper__image load-hidden">
                 <a rel="noreferrer" href="#!" target="_blank">
-                  <div
-                    data-tilt
-                    data-tilt-max="4"
-                    data-tilt-glare="true"
-                    data-tilt-max-glare="0.5"
-                    class="thumbnail rounded js-tilt"
-                  >
-                    <img
-                      alt="Project Image"
-                      class="img-fluid"
-                      src="assets/project.jpg"
-                    />
+                  <div>
+                  <div class="card-stack">
+                    <div class="card">
+                      <img src="assets/lemy.png" alt="project">
+                    </div>
+                    <div class="card">
+                      <img src="assets/lemy1.png" alt="project">
+                    </div>
+                    <div class="card">
+                      <img src="assets/lemy.png" alt="spice">
+                    </div>
+
+                  </div>
+                    
                   </div>
                 </a>
               </div>
@@ -220,70 +217,75 @@
                 <h3 class="project-wrapper__text-title">Project Title 2</h3>
                 <div>
                   <p class="mb-4">
-                    If the project was collaborative, reflect it in this description, that will demonstrate communication and/or leadership skills. 
-                    Additionally, if you made use of the mastery of a second language, it will reflect on you professionalism.
+                    A clean, easy-to-read menu for a café specializing in coffee,
+                     snacks, cakes, and fresh juices. The design highlights the offerings with 
+                     tasteful imagery and well-structured sections, enhancing the overall dining experience.
                   </p>
                 </div>
                 <a
                   rel="noreferrer"
                   target="_blank"
                   class="cta-btn cta-btn--hero"
-                  href="#!"
+                  href="assets/files/menu.pdf"
                 >
                   See Live
-                </a>
-                <a
-                  rel="noreferrer"
-                  target="_blank"
-                  class="cta-btn text-color-main"
-                  href="#!"
-                >
-                  Source Code
                 </a>
               </div>
             </div>
             <div class="col-lg-8 col-sm-12">
               <div class="project-wrapper__image load-hidden">
                 <a rel="noreferrer" href="#!" target="_blank">
-                  <div
-                    data-tilt
-                    data-tilt-max="4"
-                    data-tilt-glare="true"
-                    data-tilt-max-glare="0.5"
-                    class="thumbnail rounded js-tilt"
-                  >
-                    <img
-                      alt="Project Image"
-                      class="img-fluid"
-                      src="assets/project.jpg"
-                    />
+                  
+                  ><div class="card-stack">
+                    <div class="card">
+                      <img src="assets/menu.png" alt="project">
+                    </div>
+                    <div class="card">
+                      <img src="assets/menu1.png" alt="project">
+                    </div>
+                    <div class="card">
+                      <img src="assets/menu2.png" alt="spice">
+                    </div>
+                  </div>
+                    
                   </div>
                 </a>
               </div>
             </div>
-          </div>
+          
           <!-- /END Project -->
-        </div>
+        </div></div>
       </div>
     </section>
+    </div>
     <!-- /END Projects Section -->
 
     <!-- **** Contact Section **** -->
     <section id="contact">
-      <div class="container">
-        <h2 class="section-title">Contact</h2>
-        <div class="contact-wrapper load-hidden">
-          <p class="contact-wrapper__text">[Put your call to action here]</p>
-          <a
-            rel="noreferrer"
-            target="_blank"
-            class="cta-btn cta-btn--resume"
-            href="mailto:example@email.com"
-            >Call to Action</a
-          >
-        </div>
+  <div class="container">
+    
+    <div class="contact-wrapper load-hidden">
+      <p class="contact-wrapper__text">
+      </p>
+      <a
+        rel="noreferrer"
+        target="_blank"
+        class="cta-btn cta-btn--resume"
+        href="mailto:trizandungu88@gmail.com"
+      >
+         contact me
+      </a>
+      <div class="social-links">
+        <a href="#" target="_blank" aria-label="GitHub">
+          <i class="fab fa-github"></i>
+        </a>
+        <a href="#" target="_blank" aria-label="LinkedIn">
+          <i class="fab fa-linkedin"></i>
+        </a>
       </div>
-    </section>
+    </div>
+  </div>
+</section>
     <!-- /END Contact Section -->
 
     <!-- **** Footer Section **** -->
@@ -293,13 +295,13 @@
           <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
         </a>
         <div class="social-links">
-          <a rel="noreferrer" href="#!" target="_blank">
-            <i class="fa fa-twitter fa-inverse"></i>
+          <a rel="noreferrer" href= "https://www.instagram.com/_vedattor/?hl=en#" target="_blank">
+            <i class="fa fa-instagram fa-inverse"></i>
           </a>
-          <a rel="noreferrer" href="#!" target="_blank">
-            <i class="fa fa-linkedin fa-inverse"></i>
+          <a rel="noreferrer" href="https://wa.me/254758288790" target="_blank">
+            <i class="fa fa-whatsapp fa-inverse"></i>
           </a>
-          <a rel="noreferrer" href="#!" target="_blank">
+          <a rel="noreferrer" href="" target="_blank">
             <i class="fa fa-github fa-inverse"></i>
           </a>
         </div>
@@ -317,6 +319,7 @@
         
       </div>
     </footer>
+  </div>
     <!-- /END Footer Section -->
 
     <script defer type="module" src="index.js"></script>
